@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:text="@string/headerString"
+        android:layout_weight="0.85"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#b8860b" />
+        android:layout_marginBottom="-10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Chris Boehm\nJordon Rapoport\nRyan Ching\nFei Yu\nHugh Pedley"
+        android:id="@+id/ourNames"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you would like to report a question for inaccuracy, please send us an email including a source to pittcityquiz@gmail.com"
+        android:id="@+id/contactUs"
+        android:layout_weight="0.07"
+        android:textColor="#FFF"
+        android:textSize="16dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/button9"
+        android:background="#b8860b"
+        android:textSize="40sp"
+        android:layout_weight="0.07" />
+</LinearLayout>

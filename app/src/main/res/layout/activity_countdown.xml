@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="5"
+        android:id="@+id/textCountdown"
+        android:gravity="center"
+        android:textSize = "150dp"
+        android:textColor = "#b8860b"
+
+
+
+        />
+</LinearLayout>

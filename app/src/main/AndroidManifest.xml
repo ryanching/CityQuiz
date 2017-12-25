@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fey.cityquiz" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="com.example.fey.cityquiz.HomePage"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.example.fey.cityquiz.QuizPage"
+            android:label = "QuizPage"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+
+        </activity>
+
+        <activity
+            android:name="com.example.fey.cityquiz.ResultPage"
+            android:label = "ResultPage"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+
+         </activity>
+
+        <activity
+            android:name="com.example.fey.cityquiz.AboutPage"
+            android:label = "AboutPage"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+
+        </activity>
+
+        <activity
+            android:name="com.example.fey.cityquiz.SubmitPage"
+            android:label = "SubmitPage"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+
+        </activity>
+
+        <activity
+            android:name="com.example.fey.cityquiz.Register"
+            android:label = "Register"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+
+        </activity>
+
+        <activity
+            android:name="com.example.fey.cityquiz.LeaderPage"
+            android:label = "LeaderPage"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+
+        </activity>
+        
+        <activity
+            android:name="com.example.fey.cityquiz.AdPage"
+            android:label = "AdPage"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+
+        </activity>
+        
+        <activity
+            android:name="com.example.fey.cityquiz.CountDownPage"
+            android:label = "CountDownPage"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+
+        </activity>
+
+    </application>
+
+</manifest>

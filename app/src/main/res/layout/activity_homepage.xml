@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation ="vertical"
+    android:weightSum="1"
+    android:background="#010101">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_quiz"
+        android:id="@+id/textView"
+        android:layout_weight="0.16"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:textColor="#b8860b" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/take_quiz"
+        android:id="@+id/button"
+        android:layout_weight="0.16"
+        android:textSize="40sp"
+        android:background="#b8860b" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submitButton"
+        android:id="@+id/button8"
+        android:layout_weight="0.16"
+        android:background="#b8860b"
+        android:textSize="40sp" />
+    
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/leaderButton"
+        android:id="@+id/buttonLeader"
+        android:layout_weight="0.16"
+        android:background="#b8860b"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutButton"
+        android:id="@+id/button7"
+        android:layout_weight="0.16"
+        android:background="#b8860b"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerButtonText"
+        android:id="@+id/registerButton"
+        android:layout_weight="0.16"
+        android:background="#b8860b"
+        android:textSize="40sp" />
+
+</LinearLayout>

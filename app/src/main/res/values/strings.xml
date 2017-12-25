@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CityQuiz</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="city_quiz">Welcome to City Quiz</string>
+    <string name="take_quiz">Take Quiz</string>
+    <string name="submitButton">Submit</string>
+    <string name="aboutButton">About</string>
+    <string name="registerButtonText">Register</string>
+    <string name="aboutPageInfo">PageInfo</string>
+    <string name="toMainFromAbout"> MainFromAbout</string>
+    <string name="submit">Submit</string>
+    <string name="submitText">SubmitText</string>
+    <string name="unequalPasswords">Passwords are not equal. Please try again</string>
+    <string name="passwordDialogTitle">Try Again</string>
+    <string name="registrationMessage">Your account has been successfully created.</string>
+    <string name="leaderButton">LeaderBoard</string>
+    <string name="headerString"><u>Developers</u></string>
+    <string name="androidIdAlertMessage">There is already a registered account associated with this device. </string>
+    <string name="androidIdAlertTitle">Registration Error</string>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:text="Which one is C?"
+        android:id="@+id/textView2"
+        android:layout_x="0dp"
+        android:layout_y="3dp"
+        android:background="#B8860B"
+        android:textSize="30dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="A"
+        android:id="@+id/button2"
+        android:layout_x="40dp"
+        android:layout_y="120dp"
+        android:background="#B8860B"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="B"
+        android:id="@+id/button3"
+        android:layout_x="40dp"
+        android:layout_y="200dp"
+        android:background="#B8860B"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="C"
+        android:id="@+id/button4"
+        android:layout_x="40dp"
+        android:layout_y="280dp"
+        android:background="#B8860B"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="D"
+        android:id="@+id/button5"
+        android:layout_x="40dp"
+        android:layout_y="360dp"
+        android:background="#B8860B"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+
+        android:layout_marginBottom="17dp"
+        android:background="#B8860B"
+
+        android:layout_x="87dp"
+        android:layout_y="456dp"
+        android:textSize="23dp"
+        android:textAlignment="gravity"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="302dp"
+        android:layout_height="295dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/countDown"
+        android:layout_x="42dp"
+        android:layout_y="122dp" />
+
+</AbsoluteLayout>
